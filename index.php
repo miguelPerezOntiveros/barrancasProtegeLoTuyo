@@ -1,5 +1,5 @@
 <?php
-  $link = mysqli_connect('barrancasprotegelotuyo.com','mike','Notgreenm1.','barrancas');
+  $link = mysqli_connect('xxxx','xxxx','xxxx','xxxx');
        
     if(!$rs = mysqli_query($link, "select tipo, contenido from contenido"))
         echo "Error al obtener datos";
